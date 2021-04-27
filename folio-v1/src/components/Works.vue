@@ -4,11 +4,26 @@
          <div class="works-page_text">WORKS</div>
         </div>
         <div class="project-container">
+            <div class="project-presentation-right">
+            <div class="project-presentation_description">
+                <p>Imagined and designed by myself, I thought this portfolio</p>
+                <p>into an original visit presenting my skills and services. The </p>
+                <p>whole thing is accompanied by animations to make the</p>
+                <p>visitors' journey even more pleasant and fluid.</p>
+            </div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/folio_MW.png" alt="">
+            </div>
+        </div>
         <div class="project-presentation-left">
             <div class="project-presentation_picture">
-                <img src="" alt="">
+                <img src="../assets/img/groupomania.png" alt="">
             </div>
-            <div class="project-presentation_description"></div>
+            <div class="project-presentation_description">
+                <p>Full social network project inspired by facebook</p>
+                <p>created from the database to the customer </p>
+                <p>front experience</p>
+            </div>
         </div>
         <div class="project-presentation-right">
             <div class="project-presentation_description">
@@ -23,36 +38,52 @@
             </div>
         </div>
         <div class="project-presentation-left">
-            <div class="project-presentation_picture"></div>
-            <div class="project-presentation_description"></div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/sopekocko.png" alt="">
+            </div>
+            <div class="project-presentation_description">
+                <p>On the other side of the machine, creating and</p>
+                <p>securing a database and server for a comparative</p>
+                <p>hot sauce application </p>
+            </div>
         </div>
         <div class="project-presentation-right">
-            <div class="project-presentation_description"></div>
-            <div class="project-presentation_picture"></div>
+            <div class="project-presentation_description">
+                <p>Development of the customer experience part </p>
+                <p>(front-end) of an e-commerce website with </p>
+                <p> connection to the api (backend) and unit testing</p>
+            </div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/orinoco.png" alt="">
+            </div>
         </div>
         <div class="project-presentation-left">
-            <div class="project-presentation_picture"></div>
-            <div class="project-presentation_description"></div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/lachouetteagence.png" alt="">
+            </div>
+            <div class="project-presentation_description">
+                <p>Seo and accessibility optimisation of a website, keywords</p>
+                <p>research, improvement of loading speed. Compliance and </p>
+                <p>respect of wcag standards.</p>
+            </div>
         </div>
         <div class="project-presentation-right">
-            <div class="project-presentation_description"></div>
-            <div class="project-presentation_picture"></div>
+            <div class="project-presentation_description">
+                <p>Integration of a mobile application for ordering meals </p>
+                <p>online with some call to action animations</p>
+            </div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/ohmyfood.png" alt="">
+            </div>
         </div>
         <div class="project-presentation-left">
-            <div class="project-presentation_picture"></div>
-            <div class="project-presentation_description"></div>
-        </div>
-        <div class="project-presentation-right">
-            <div class="project-presentation_description"></div>
-            <div class="project-presentation_picture"></div>
-        </div>
-        <div class="project-presentation-left">
-            <div class="project-presentation_picture"></div>
-            <div class="project-presentation_description"></div>
-        </div>
-        <div class="project-presentation-right">
-            <div class="project-presentation_description"></div>
-            <div class="project-presentation_picture"></div>
+            <div class="project-presentation_picture">
+                <img src="../assets/img/reservia.png" alt="">
+            </div>
+            <div class="project-presentation_description">
+                <p>Integration of an online booking site for rooms</p>
+                <p>for rent  </p>
+            </div>
         </div>
         </div>
   </div>
@@ -91,7 +122,7 @@ export default {
 }
 .works-page_text{
     transform: rotate(-90deg);
-    font-size: 5rem;
+    font-size: 4rem;
     color: whitesmoke;
     margin-left: 1rem;
 }
@@ -110,6 +141,8 @@ export default {
 }
 img{
     width: 70%;
+    height:75%;
+    object-fit:fill;
 }
 .project-presentation_description{
     display: flex;

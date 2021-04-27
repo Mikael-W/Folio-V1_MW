@@ -16,9 +16,9 @@
           <a class="links" href="mailto:someone@yoursite.com">hello@mikaelw.com</a>
           </div>
           <div class="socials-links">
-              <img src="../assets/img/instalogo.png" alt="">
-              <img src="../assets/img/linkedin-logo.png" alt="">
-              <img src="../assets/img/twitlogo.png" alt="">
+              <img class="contact-logo" src="../assets/img/instalogoB.png" alt="">
+              <img class="contact-logo" src="../assets/img/linkedin-logoB.png" alt="">
+              <img class="contact-logo" src="../assets/img/twitlogoB.png" alt="">
           </div>
       </div>
       <div class="copyright"> © MW 2021. All rights reserved.</div>
@@ -54,7 +54,7 @@ export default {
 .contact-page_text{
     display: flex;
     transform: rotate(-90deg);
-    font-size: 5rem;
+    font-size: 4rem;
     color: whitesmoke; 
     margin-left: 1rem;
 }
@@ -68,7 +68,7 @@ export default {
     margin-left: 4vw;
     padding: 5vw;
     font-family: 'Podkova', serif;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
     color: #106DB0;
 }
@@ -99,6 +99,10 @@ p{
 .mail-box_logo{
     width: 5vw;
     margin-bottom: 1rem;
+}
+.contact-logo{
+    width: 2vw;;
+    margin: 1rem 2rem;
 }
 .copyright{
     position:absolute;

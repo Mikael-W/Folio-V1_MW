@@ -57,7 +57,7 @@ export default {
 .about-title_text{
     display: flex;
     transform: rotate(-90deg);
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: INKFERNO,sans-serif;
     color: whitesmoke; 
     margin-left: 1rem;
