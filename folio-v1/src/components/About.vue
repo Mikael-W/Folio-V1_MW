@@ -14,11 +14,13 @@
       <div class="story-texte">
         <p class="story">Hello,</p>
         <p class="story">
-          I'm Mikaël, freelance web developper passionate about the web, I put my
-          expertise and my skills to my customers, accompanying them in all
-          their web projects. Present in the digital world for almost 10 years
-          in various sectors, I decided to devote myself entirely to my passion
-          for the web and programming.
+          I'm Mikaël, freelance web developper based in normandie, france.
+        </p>
+        <p class="story">
+          Passionate about the web, I put my expertise and my skills to my
+          customers, accompanying them in all their web projects. Present in the
+          digital world for almost 10 years in various sectors, I decided to
+          devote myself entirely to my passion for the web and programming.
         </p>
         <p class="story">
           Working remotely all over the world, I'm open to all types of missions
@@ -44,23 +46,23 @@ export default {
   width: 100vw;
   height: 100vh;
 }
-.about-title{
+.about-title {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
   left: 0;
-  width:4vw;
+  width: 4vw;
   height: 100vh;
-  background: #106DB0;
+  background: #106db0;
 }
-.about-title_text{
-    display: flex;
-    transform: rotate(-90deg);
-    font-size: 4rem;
-    font-family: INKFERNO,sans-serif;
-    color: whitesmoke; 
-    margin-left: 1rem;
+.about-title_text {
+  display: flex;
+  transform: rotate(-90deg);
+  font-size: 4rem;
+  font-family: INKFERNO, sans-serif;
+  color: whitesmoke;
+  margin-left: 1rem;
 }
 .about-page_story {
   display: flex;
@@ -85,10 +87,40 @@ export default {
   width: 75%;
 }
 .story {
-  font-family: 'Podkova', serif;
+  font-family: "Podkova", serif;
   color: #106db0;
-  font-size: 2.2rem;
+  font-size: 2vw;
   padding: 1rem 0;
-  line-height: 2.5rem;
+}
+@media screen and (max-width: 768px) {
+  .about-title{
+    top:0;
+    width: 100%;
+    height: 5vh;
+  }
+  .about-title_text{
+    transform: none;
+    font-size: 3vh;
+  }
+  .about-page_picture{
+    width: 100vw;
+    height: 47.5vh;
+    background: #106db0;
+    align-content: center;
+  }
+  .picture-part_image{
+    width: 30%;
+  }
+  #about-page{
+    flex-direction: column;
+  }
+  .about-page_story{
+    width: 100vw;
+    height: 47.5vh;
+  }
+  .story{
+    font-size: 3vw;
+  }
+  
 }
 </style>

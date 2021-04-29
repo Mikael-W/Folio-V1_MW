@@ -68,12 +68,12 @@ export default {
     margin-left: 4vw;
     padding: 5vw;
     font-family: 'Podkova', serif;
-    font-size: 2rem;
     text-align: center;
     color: #106DB0;
 }
 p{
     padding: 1rem;
+    font-size: 2vw;;
 }
 .contact-action{
     width: 96vw;
@@ -112,6 +112,42 @@ p{
     transform: rotate(-90deg);
     font-family: INKFERNO,sans-serif;
     color:#106DB0;
+}
+@media screen and (max-width:768px) {
+    .contact-title{
+        top:0;
+        bottom: 95vh;
+        width: 100vw;
+        height: 5vh;
+        border: none;
+    }
+    .contact-page_text{
+        transform: none;
+        font-size: 3vh;
+    }
+    .meeting-purpose{
+        width: 100vw;
+        height: 65vh;
+        margin-left:0;
+        padding: 0;
+    }
+    p{
+        font-size: 4vw;
+    }
+    .contact-action{
+        width: 100vw;
+        margin-left: 0;
+    }
+    .mail-box_logo{
+        width: 10vw;
+    }
+    .copyright{
+        position:static;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
 }
 
 </style>

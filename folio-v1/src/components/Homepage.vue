@@ -20,7 +20,7 @@
       <span class="lasttname-letters">N</span>
       <span class="lasttname-letters">Y</span>
     </h1>
-    <div class="home-title">Freelance web developper</div>
+    <div class="home-title">Freelance web developer</div>
     
   </div>
   <div class="social-footer">
@@ -117,5 +117,34 @@ export default {
 .insta, .twitter, .contact, .linkedin{
   width:2rem;
   height:2rem;
+}
+@media screen and (max-width: 768px) {
+  #firstname{
+    height:0;
+    margin: 35vh 0 0 5vw;
+  }
+  #lastname{
+    margin: 15vh 0 0 5vw;
+  }
+  .home-title{
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:95vh;
+    width: 100%;
+    background: #106DB0;
+    color:whitesmoke;
+    text-align: center;
+  }
+  .social-footer{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height:5vh;
+  }
+  .socials{
+    flex-direction: row;
+  }
+  
 }
 </style>

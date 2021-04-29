@@ -32,4 +32,14 @@ export default {
   transform: rotate(90deg) translateY(-100vh);;
   transform-origin: top left;
 }
+@media screen and (max-width: 768px){
+  .home-wrapper{
+    display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    transform: none;
+    width:100vw;
+  }
+}
 </style>
