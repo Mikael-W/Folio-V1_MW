@@ -79,7 +79,6 @@
             <p>I worked on animations to give a smooth effect on it</p>
             <p>
               website coming soon !
-              <a href="www.laerte-skincare.ch">www.laerte-skincare.ch</a>
             </p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
@@ -92,13 +91,13 @@
               <img class="icons-tools" src="../assets/img/gsap.png" alt="" />
             </div>
           </div>
-          <div class="project-presentation_picture">
+          <a href="www.laerte-skincare.ch" class="project-presentation_picture">
             <img
               class="project-img"
               src="../assets/img/laerte.png"
               alt="laerte-skincare.ch"
             />
-          </div>
+          </a>
         </div>
       </div>
       <div id="project-presentation">
@@ -187,7 +186,6 @@
           <div class="project-presentation_description">
             <p>Integration of a mobile application for ordering meals</p>
             <p>online with some call to action animations</p>
-            <a href="https://ohmyfood-bym.com/">www.ohmyfood-bym.com</a>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -197,9 +195,9 @@
               /></a>
             </div>
           </div>
-          <div class="project-presentation_picture">
+          <a href="https://ohmyfood-bym.com/" class="project-presentation_picture">
             <img class="project-img" src="../assets/img/ohmyfood.png" alt="" />
-          </div>
+          </a>
         </div>
       </div>
       <div id="project-presentation">
@@ -208,8 +206,8 @@
             <img class="project-img" src="../assets/img/reservia.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>Integration of an online booking site for rooms</p>
-            <p>for rent</p>
+            <p>Integration of an online booking site</p>
+            <p>for hotels and private renting rooms</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -302,6 +300,9 @@ export default {
   width: 2vw;
   margin: 0 1rem;
 }
+a{
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   .works-page_title {
     top: 0;
@@ -332,7 +333,7 @@ export default {
   }
   .project-presentation_description {
       position: relative;
-      width: 90vw;
+      width: 89vw;
       height: 50vh;
   }
   #project-presentation{
@@ -355,7 +356,24 @@ export default {
     width: 3.5vw;
   }
 @media screen and (max-width: 425px) {
-  
+  .project-img{
+    width: 80vw;
+    height:25vh;
+  }
+  .project-presentation_picture{
+      height: 45vh;
+  }
+  p{
+    font-size: 1rem;
+    padding:0.5rem;
+    text-align: center;
+  }
+  .icons-tools{
+    width: 3vw;
+  }
+  .icons-tools {
+  margin: 0 0.5rem;
+}
 }
 }
 </style>

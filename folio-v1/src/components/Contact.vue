@@ -148,6 +148,24 @@ p{
         justify-content: center;
         margin-top: 3vh;
     }
+     .socials-links{
+        display: none;
+    }
+    @media screen and (max-width:425px) {
+         p{
+        font-size: 4.5vw;
+    }
+    .links{
+        font-size: 1rem;
+    }
+    .socials-links{
+        display: none;
+    }
+    .copyright{
+        margin-top: 6vh;
+        font-size: 0.6rem;
+    }
+    }
 }
 
 </style>

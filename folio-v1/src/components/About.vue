@@ -121,6 +121,16 @@ export default {
   .story{
     font-size: 3vw;
   }
-  
+  @media screen and (max-width: 425px){
+    .story-texte {
+    margin-top: 1.5rem;
+  }
+    .story{
+    font-size: 4vw;
+  }
+    .picture-part_image{
+    width: 50vw;
+  }
+  }
 }
 </style>

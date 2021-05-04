@@ -1,8 +1,13 @@
 <template>
   <div class="folio-home">
-    <h1 id="firstname">MIKAEL</h1>
-    <h1 id="lastname">WAWRZICZNY</h1>
-    <div class="home-title">Freelance web developer</div> 
+    <div class="header-bar">
+      <div class="logo">MW</div>
+      <div class="available">AVAILABLE</div>
+      <a class="language" href="www.mikaelw.fr">FR</a>
+      </div>
+    <div id="firstname">MIKAEL</div>
+    <div id="lastname">WAWRZICZNY</div>
+    <h1 class="home-title">Freelance web developer</h1>
   </div>
   <div class="social-footer">
   <div class="socials">
@@ -59,6 +64,31 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
 }
+.header-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  color: #106DB0;
+  font-size: 1rem;
+  margin-left: 3rem;
+  padding:0.5rem;
+}
+.available{
+  color: #106DB0;
+  margin-right:3rem;
+  font-family: INKFERNO,sans-serif;
+
+}
+.language{
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: #106DB0;
+  display: block;
+  text-decoration: none;
+  font-family: INKFERNO,sans-serif;
+}
 #firstname{
   display:flex;
   flex-direction: row;
@@ -111,6 +141,12 @@ export default {
   height:2rem;
 }
 @media screen and (max-width: 768px) {
+  .header-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #106DB0;
+}
   #firstname{
     height:0;
     margin: 35vh 0 0 5vw;
@@ -120,13 +156,16 @@ export default {
   }
   .home-title{
     position: absolute;
-    top:0;
-    right:0;
-    bottom:95vh;
+    top:75%;
+    right: 11vw;
     width: 100%;
-    background: #106DB0;
-    color:whitesmoke;
+    color:#106DB0;
     text-align: center;
+  }
+  .available{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: white;
   }
   .social-footer{
     position: fixed;
@@ -139,7 +178,26 @@ export default {
     flex-direction: row;
   }
 @media screen and (max-width: 425px){
-
+  #firstname{
+    margin: 25vh 0 0 5vw;
+  }
+ .insta, .twitter, .contact, .linkedin{
+  width:1rem;
+  height:1rem;
+  }
+  .home-title{
+    font-size: 1.5rem;
+    right:5vw;
+  }
+  .available{
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+  @media screen and (max-width: 425px){
+    .home-title{
+    right:0;
+  }
+  }
 }
 }
 </style>
