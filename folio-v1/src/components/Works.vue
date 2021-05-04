@@ -251,14 +251,14 @@ export default {
   width: 4vw;
   height: 100vh;
   background: #106db0;
-  border-right: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
   font-family: INKFERNO, sans-serif;
 }
 .works-page_text {
   transform: rotate(-90deg);
   font-size: 4rem;
-  color: whitesmoke;
+  color: white;
   margin-left: 1rem;
 }
 .project-presentation-left,
@@ -290,7 +290,7 @@ export default {
   color: #106db0;
   width: 50%;
   height: 50vh;
-  background: whitesmoke;
+  background: white;
 }
 .icons-tools_box {
   display: flex;
@@ -316,25 +316,46 @@ export default {
   }
   .project-presentation-left{
       flex-direction: column;
-      width: 100vw;
+      width: 90vw;
       height: 95vh;
       margin:0
   } 
   .project-presentation-right{
       flex-direction: column-reverse;
-      width: 100vw;
+      width: 90vw;
       height: 95vh;
       margin:0
   }
   .project-presentation_picture{
-      width: 100vw;
+      width: 91vw;
+      height: 50vh;
   }
   .project-presentation_description {
-      width: 100vw;
+      position: relative;
+      width: 90vw;
+      height: 50vh;
+  }
+  #project-presentation{
+    height: 100vh;
   }
   .project-container{
-      width: 100vw;
+      display: flex;
+      overflow: scroll;
+      width: auto;
+      height: 100vh;
       margin:0;
   }
+  .project-img{
+    width: 80vw;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+  .icons-tools{
+    width: 3.5vw;
+  }
+@media screen and (max-width: 425px) {
+  
+}
 }
 </style>

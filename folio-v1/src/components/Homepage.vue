@@ -1,34 +1,15 @@
 <template>
   <div class="folio-home">
-    <h1 id="firstname">
-    <span class="firstname-letters">M</span>
-    <span class="firstname-letters">I</span>
-    <span class="firstname-letters">K</span>
-    <span class="firstname-letters">A</span>
-    <span class="firstname-letters">E</span>
-    <span class="firstname-letters">L</span>
-    </h1>
-    <h1 id="lastname">
-      <span class="lasttname-letters">W</span>
-      <span class="lasttname-letters">A</span>
-      <span class="lasttname-letters">W</span>
-      <span class="lasttname-letters">R</span>
-      <span class="lasttname-letters">Z</span>
-      <span class="lasttname-letters">I</span>
-      <span class="lasttname-letters">C</span>
-      <span class="lasttname-letters">Z</span>
-      <span class="lasttname-letters">N</span>
-      <span class="lasttname-letters">Y</span>
-    </h1>
-    <div class="home-title">Freelance web developer</div>
-    
+    <h1 id="firstname">MIKAEL</h1>
+    <h1 id="lastname">WAWRZICZNY</h1>
+    <div class="home-title">Freelance web developer</div> 
   </div>
   <div class="social-footer">
   <div class="socials">
-    <img src="../assets/img/instalogo.png" class="insta">
-    <img src="../assets/img/twitlogo.png" class="twitter">
-    <img src="../assets/img/linkedin-logo.png" class="linkedin">
-    <img src="../assets/img/email.png" class="contact">
+    <a href="https://www.instagram.com/mikaelw_dev/"><img src="../assets/img/instalogo.png" class="insta"></a>
+    <a href="https://twitter.com/w3_mika"><img src="../assets/img/twitlogo.png" class="twitter"></a>
+    <a href="https://www.linkedin.com/in/mikael-w/?locale=en_US"><img src="../assets/img/linkedin-logo.png" class="linkedin"></a> 
+    <a href="mailto:someone@yoursite.com"><img src="../assets/img/email.png" class="contact"></a> 
    </div>
   </div>
 </template>
@@ -43,14 +24,25 @@ export default {
     }
   },
   mounted: function(){
+    this.spanSplittingTitle();
     this.AnimationPage();
+    
 
   },
   methods:{
+    spanSplittingTitle(){
+      let firstname = document.querySelector("#firstname");
+      let lastname = document.querySelector("#lastname");
+
+      firstname.innerHTML = "<span class='firstname-letters'>" +
+      firstname.innerHTML.split("").join("</span><span class='firstname-letters'>") + "</span>";
+      lastname.innerHTML = "<span class='lastname-letters'>" +
+      lastname.innerHTML.split("").join("</span><span class='lastname-letters'>") + "</span>"
+    },
     AnimationPage(){
     let tl = gsap.timeline();
            tl.from(".firstname-letters", { duration: 0.8, opacity: 0, x: 200, stagger: 0.25 });
-           tl.from(".lasttname-letters", { duration: 0.8, opacity: 0, x: 200, stagger: 0.25 });
+           tl.from(".lastname-letters", { duration: 0.8, opacity: 0, x: 200, stagger: 0.25 });
            tl.from(".home-title", { duration: 1, opacity: 0, y: 50 });
     }
   
@@ -138,6 +130,7 @@ export default {
   }
   .social-footer{
     position: fixed;
+    z-index: 99999;;
     bottom: 0;
     width:100%;
     height:5vh;
@@ -145,6 +138,8 @@ export default {
   .socials{
     flex-direction: row;
   }
-  
+@media screen and (max-width: 425px){
+
+}
 }
 </style>
