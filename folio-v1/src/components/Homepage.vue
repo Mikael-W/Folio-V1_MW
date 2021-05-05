@@ -2,7 +2,7 @@
   <div class="folio-home">
     <div class="header-bar">
       <div class="logo">MW</div>
-      <div class="available">AVAILABLE</div>
+      <div class="available">AVAILABLE : APRIL 2021</div>
       <a class="language" href="www.mikaelw.fr">FR</a>
       </div>
     <div id="firstname">MIKAEL</div>
@@ -72,12 +72,15 @@ export default {
 .logo{
   color: #106DB0;
   font-size: 1rem;
-  margin-left: 3rem;
+  margin-left: 4.5rem;
   padding:0.5rem;
+  font-weight: bold;
+  font-family: INKFERNO,sans-serif;
 }
 .available{
   color: #106DB0;
-  margin-right:3rem;
+  margin-right:4.5rem;
+  font-weight: bold;
   font-family: INKFERNO,sans-serif;
 
 }
@@ -87,6 +90,7 @@ export default {
   color: #106DB0;
   display: block;
   text-decoration: none;
+   font-weight: bold;
   font-family: INKFERNO,sans-serif;
 }
 #firstname{
@@ -140,6 +144,12 @@ export default {
   width:2rem;
   height:2rem;
 }
+@media screen and (max-width: 1024px) {
+  .insta, .twitter, .contact, .linkedin{
+  width:1.5rem;
+  height:1.5rem;
+}
+}
 @media screen and (max-width: 768px) {
   .header-bar{
   display: flex;
@@ -162,11 +172,24 @@ export default {
     color:#106DB0;
     text-align: center;
   }
+  .logo{
+  color: white;
+  font-size: 1.2rem;
+  margin-left: 0;
+  padding:0.5rem;
+  font-weight: bold;
+}
   .available{
     font-size: 1.2rem;
+    margin:0;
     padding: 0.5rem;
     color: white;
   }
+  .language{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: white;
+}
   .social-footer{
     position: fixed;
     z-index: 99999;;
@@ -186,14 +209,17 @@ export default {
   height:1rem;
   }
   .home-title{
-    font-size: 1.5rem;
+    font-size: 1rem;
     right:5vw;
   }
   .available{
     font-size: 1rem;
     padding: 0.5rem;
   }
-  @media screen and (max-width: 425px){
+  .logo, .language{
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 280px){
     .home-title{
     right:0;
   }
