@@ -303,7 +303,7 @@ export default {
 a{
   text-decoration: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .works-page_title {
     top: 0;
     bottom: 95vh;

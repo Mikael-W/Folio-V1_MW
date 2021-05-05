@@ -79,7 +79,7 @@ table {
 	overflow-x: hidden;
 	position:absolute;
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 	.outer-wrapper{
 		transform: none;
 		width: 100vw;

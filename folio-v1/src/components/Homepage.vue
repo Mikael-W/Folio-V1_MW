@@ -145,12 +145,6 @@ export default {
   height:2rem;
 }
 @media screen and (max-width: 1024px) {
-  .insta, .twitter, .contact, .linkedin{
-  width:1.5rem;
-  height:1.5rem;
-}
-}
-@media screen and (max-width: 768px) {
   .header-bar{
   display: flex;
   justify-content: space-between;
@@ -200,6 +194,10 @@ export default {
   .socials{
     flex-direction: row;
   }
+  .insta, .twitter, .contact, .linkedin{
+  width:1.5rem;
+  height:1.5rem;
+}
 @media screen and (max-width: 425px){
   #firstname{
     margin: 25vh 0 0 5vw;
@@ -222,6 +220,15 @@ export default {
   @media screen and (max-width: 280px){
     .home-title{
     right:0;
+  }
+  }
+  @media screen and (max-height: 500px){
+    #firstname{
+    height:0;
+    margin: 10vh 0 0 5vw;
+  }
+  #lastname{
+    margin: 25vh 0 0 5vw;
   }
   }
 }
