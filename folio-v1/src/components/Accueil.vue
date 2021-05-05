@@ -2,12 +2,12 @@
   <div class="folio-home">
     <div class="header-bar">
       <div class="logo">MW</div>
-      <div class="available">AVAILABLE : APRIL 2021</div>
-      <router-link class="language" to="/fr">FR</router-link>
+      <div class="available">DISPONIBILITÉ : AVRIL 2021</div>
+      <router-link class="language" to="/">EN</router-link>
       </div>
     <div id="firstname">MIKAEL</div>
     <div id="lastname">WAWRZICZNY</div>
-    <h1 class="home-title">Freelance web developer</h1>
+    <h1 class="home-title">Developpeur web freelance</h1>
   </div>
   <div class="social-footer">
   <div class="socials">

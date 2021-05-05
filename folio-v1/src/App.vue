@@ -1,5 +1,5 @@
 <template>
-<div id="layout">
+<div id="layout-en">
 	<main class="outer-wrapper">
   <router-view/>
   </main>

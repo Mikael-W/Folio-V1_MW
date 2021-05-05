@@ -1,9 +1,9 @@
 <template>
-  <div class="home-wrapper">
+  <div class="layout-en">
     <Homepage />
     <About />
     <Works />
-    <Contact />
+    <ContactEN />
     </div>
 </template>
 
@@ -12,20 +12,20 @@
 import Homepage from '@/components/Homepage.vue'
 import About from '@/components/About.vue'
 import Works from '@/components/Works.vue'
-import Contact from '@/components/Contact.vue'
+import ContactEN from '@/components/ContactEN.vue'
 
 export default {
-  name: 'Home',
+  name: 'Home_en',
   components: {
     Homepage, 
     About,
     Works,
-    Contact
+    ContactEN
   },
 }
 </script>
 <style>
-.home-wrapper{
+.layout-en{
   display: flex;
   flex-direction: row;
   width: 400vw;
@@ -33,7 +33,7 @@ export default {
   transform-origin: top left;
 }
 @media screen and (max-width: 1024px){
-  .home-wrapper{
+  .layout-en{
     display: flex;
 		flex-direction: column;
 		justify-content: center;
