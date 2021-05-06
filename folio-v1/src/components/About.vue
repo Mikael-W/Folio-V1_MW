@@ -106,32 +106,28 @@ export default {
   }
   .about-page_picture{
     width: 100vw;
-    height: 47.5vh;
     background: #106db0;
     align-content: center;
   }
   .picture-part_image{
-    width: 30%;
+    width: 75vw;
   }
   #about-page{
     flex-direction: column;
+    height:auto;
   }
   .about-page_story{
     width: 100vw;
-    height: 47.5vh;
   }
   .story{
-    font-size: 3vw;
+    font-size: 5vw;
   }
   @media screen and (max-width: 425px){
     .story-texte {
     margin-top: 1.5rem;
   }
     .story{
-    font-size: 4vw;
-  }
-    .picture-part_image{
-    width: 50vw;
+    font-size: 5vw;
   }
   }
 }

@@ -23,7 +23,7 @@
           J'ai décidé de me consacrer pleinement au developpement et à la programmation.
         </p>
         <p class="story">
-          Travaillant essentiellement à distance, je suis disponible pour tout types de missions 
+          Travaillant essentiellement à distance, je suis disponible pour tous types de missions 
           et contrats.
         </p>
       </div>
@@ -107,7 +107,6 @@ export default {
   }
   .about-page_picture{
     width: 100vw;
-    height: 47.5vh;
     align-content: center;
   }
   .picture-part_image{
@@ -119,20 +118,19 @@ export default {
   }
   .about-page_story{
     width: 100vw;
-    height: 47.5vh;
   }
   .story{
-    font-size: 3vw;
+    font-size: 5vw;
   }
   @media screen and (max-width: 425px){
     .story-texte {
     margin-top: 1.5rem;
   }
     .story{
-    font-size: 4vw;
+    font-size: 5vw;
   }
     .picture-part_image{
-    width: 50vw;
+    width: 75vw;
   }
   }
 }

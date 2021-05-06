@@ -350,7 +350,7 @@ p{
     width: 80vw;
   }
   p{
-    font-size: 1.5rem;
+    font-size: 5vw;
   }
   .icons-tools{
     width: 3.5vw;
@@ -364,7 +364,7 @@ p{
       height: 50vh;
   }
   p{
-    font-size: 1rem;
+    font-size: 5vw;
     padding:0.5rem;
     text-align: center;
   }

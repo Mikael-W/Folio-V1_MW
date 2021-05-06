@@ -1,7 +1,7 @@
 <template>
   <div class="folio-home">
     <div class="header-bar">
-      <div class="logo">MW</div>
+      <img class="logo" src="../assets/img/mw_logoW.png"/>
       <div class="available">DISPONIBLE</div>
       <a class="language" href="/">EN</a>
       </div>
@@ -14,7 +14,7 @@
     <a href="https://www.instagram.com/mikaelw_dev/"><img src="../assets/img/instalogoB.png" class="insta"></a>
     <a href="https://twitter.com/w3_mika"><img src="../assets/img/twitlogoB.png" class="twitter"></a>
     <a href="https://www.linkedin.com/in/mikael-w/?locale=en_US"><img src="../assets/img/linkedin-logoB.png" class="linkedin"></a> 
-    <a href="mailto:someone@yoursite.com"><img src="../assets/img/emailB.png" class="contact"></a> 
+    <a href="mailto:hello@mikaelw.com"><img src="../assets/img/emailB.png" class="contact"></a> 
    </div>
   </div>
 </template>
@@ -68,12 +68,9 @@ export default {
   align-items: center;
 }
 .logo{
-  color: white;
-  font-size: 1.5vw;
+  width: 2vw;
   margin-left: 4.5rem;
   padding:0.5rem;
-  font-weight: bold;
-  font-family: INKFERNO,sans-serif;
 }
 .available{
   color: white;
@@ -97,7 +94,7 @@ export default {
   flex-direction: row;
   width: 50vw;
   height: 15vh;
-  font-size: 15vw;
+  font-size: 14vw;
   font-weight: bold;
   margin: 12vh 0 0 5vw;
   color:white;
@@ -108,7 +105,7 @@ export default {
   flex-direction: row;
   width: 50vw;
   height: 10vh;
-  font-size: 15vw;
+  font-size: 14vw;
   font-weight: bold;
   margin: 24vh 0 0 5vw;
   color:white;
@@ -201,11 +198,10 @@ export default {
     margin: 25vh 0 0 5vw;
   }
  .insta, .twitter, .contact, .linkedin{
-  width:1rem;
-  height:1rem;
+  width:5vw;
   }
   .home-title{
-    font-size: 1rem;
+    font-size: 6.5vw;;
     right:5vw;
   }
   .available{

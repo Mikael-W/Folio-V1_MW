@@ -10,10 +10,10 @@
       </div>
       <div class="contact-action">
           <div class="mail-box">
-          <a class="links" href="mailto:someone@yoursite.com">
+          <a class="links" href="mailto:hello@mikaelw.com">
               <img class="mail-box_logo" src="../assets/img/email-logo.png" alt="">
           </a>
-          <a class="links" href="mailto:someone@yoursite.com">hello@mikaelw.com</a>
+          <a class="links" href="mailto:hello@mikaelw.com">hello@mikaelw.com</a>
           </div>
           <div class="socials-links">
               <img class="contact-logo" src="../assets/img/instalogoB.png" alt="">
@@ -157,7 +157,7 @@ p{
     }
     @media screen and (max-width:425px) {
          p{
-        font-size: 4.5vw;
+        font-size: 5vw;
     }
     .links{
         font-size: 1rem;
