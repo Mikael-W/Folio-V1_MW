@@ -2,7 +2,7 @@
   <div class="folio-home">
     <div class="header-bar">
       <div class="logo">MW</div>
-      <div class="available">AVAILABLE : APRIL 2021</div>
+      <div class="available">AVAILABLE</div>
       <router-link class="language" to="/fr">FR</router-link>
       </div>
     <div id="firstname">MIKAEL</div>
@@ -71,7 +71,7 @@ export default {
 }
 .logo{
   color: #106DB0;
-  font-size: 1rem;
+  font-size: 1.5vw;
   margin-left: 4.5rem;
   padding:0.5rem;
   font-weight: bold;
@@ -79,13 +79,14 @@ export default {
 }
 .available{
   color: #106DB0;
+  font-size: 1.5vw;
   margin-right:4.5rem;
   font-weight: bold;
   font-family: INKFERNO,sans-serif;
 
 }
 .language{
-  font-size: 1rem;
+  font-size: 1.5vw;
   padding: 0.5rem;
   color: #106DB0;
   display: block;
@@ -141,8 +142,7 @@ export default {
   justify-content: space-around;
 }
 .insta, .twitter, .contact, .linkedin{
-  width:2rem;
-  height:2rem;
+  width:2vw;
 }
 @media screen and (max-width: 1024px) {
   .header-bar{
@@ -168,19 +168,19 @@ export default {
   }
   .logo{
   color: white;
-  font-size: 1.2rem;
+  font-size: 4vw;
   margin-left: 0;
   padding:0.5rem;
   font-weight: bold;
 }
   .available{
-    font-size: 1.2rem;
+    font-size: 4vw;
     margin:0;
     padding: 0.5rem;
     color: white;
   }
   .language{
-  font-size: 1.2rem;
+  font-size: 4vw;
   padding: 0.5rem;
   color: white;
 }
@@ -195,27 +195,22 @@ export default {
     flex-direction: row;
   }
   .insta, .twitter, .contact, .linkedin{
-  width:1.5rem;
-  height:1.5rem;
+    width:5vw;
 }
 @media screen and (max-width: 425px){
   #firstname{
     margin: 25vh 0 0 5vw;
   }
- .insta, .twitter, .contact, .linkedin{
-  width:1rem;
-  height:1rem;
-  }
   .home-title{
-    font-size: 1rem;
+    font-size: 7vw;
     right:5vw;
   }
   .available{
-    font-size: 1rem;
+    font-size: 5vw;
     padding: 0.5rem;
   }
   .logo, .language{
-    font-size: 1rem;
+    font-size: 5vw;
   }
   @media screen and (max-width: 280px){
     .home-title{

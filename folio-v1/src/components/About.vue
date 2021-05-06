@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #about-page {
   position: relative;
   display: flex;
@@ -59,10 +59,12 @@ export default {
 .about-title_text {
   display: flex;
   transform: rotate(-90deg);
-  font-size: 4rem;
+  white-space: nowrap;
   font-family: INKFERNO, sans-serif;
-  color: whitesmoke;
-  margin-left: 1rem;
+  display: flex;
+  font-size: 3vw;
+  color: white;  
+  margin-left:0.5vw;
 }
 .about-page_story {
   display: flex;

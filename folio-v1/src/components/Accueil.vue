@@ -2,7 +2,7 @@
   <div class="folio-home">
     <div class="header-bar">
       <div class="logo">MW</div>
-      <div class="available">DISPONIBILITÉ : AVRIL 2021</div>
+      <div class="available">DISPONIBLE</div>
       <router-link class="language" to="/">EN</router-link>
       </div>
     <div id="firstname">MIKAEL</div>
@@ -11,10 +11,10 @@
   </div>
   <div class="social-footer">
   <div class="socials">
-    <a href="https://www.instagram.com/mikaelw_dev/"><img src="../assets/img/instalogo.png" class="insta"></a>
-    <a href="https://twitter.com/w3_mika"><img src="../assets/img/twitlogo.png" class="twitter"></a>
-    <a href="https://www.linkedin.com/in/mikael-w/?locale=en_US"><img src="../assets/img/linkedin-logo.png" class="linkedin"></a> 
-    <a href="mailto:someone@yoursite.com"><img src="../assets/img/email.png" class="contact"></a> 
+    <a href="https://www.instagram.com/mikaelw_dev/"><img src="../assets/img/instalogoB.png" class="insta"></a>
+    <a href="https://twitter.com/w3_mika"><img src="../assets/img/twitlogoB.png" class="twitter"></a>
+    <a href="https://www.linkedin.com/in/mikael-w/?locale=en_US"><img src="../assets/img/linkedin-logoB.png" class="linkedin"></a> 
+    <a href="mailto:someone@yoursite.com"><img src="../assets/img/emailB.png" class="contact"></a> 
    </div>
   </div>
 </template>
@@ -60,9 +60,7 @@ export default {
   position:relative;
   width: 100vw;
   height: 100vh;
-  background-image: url(../assets/img/bgFolio.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #106DB0;
 }
 .header-bar{
   display: flex;
@@ -70,24 +68,25 @@ export default {
   align-items: center;
 }
 .logo{
-  color: #106DB0;
-  font-size: 1rem;
+  color: white;
+  font-size: 1.5vw;
   margin-left: 4.5rem;
   padding:0.5rem;
   font-weight: bold;
   font-family: INKFERNO,sans-serif;
 }
 .available{
-  color: #106DB0;
+  color: white;
+  font-size: 1.5vw;
   margin-right:4.5rem;
   font-weight: bold;
   font-family: INKFERNO,sans-serif;
 
 }
 .language{
-  font-size: 1rem;
+  font-size: 1.5vw;
   padding: 0.5rem;
-  color: #106DB0;
+  color: white;
   display: block;
   text-decoration: none;
    font-weight: bold;
@@ -101,7 +100,7 @@ export default {
   font-size: 15vw;
   font-weight: bold;
   margin: 12vh 0 0 5vw;
-  color:#106DB0;
+  color:white;
   font-family: INKFERNO,sans-serif;
 }
 #lastname{
@@ -112,7 +111,7 @@ export default {
   font-size: 15vw;
   font-weight: bold;
   margin: 24vh 0 0 5vw;
-  color:#106DB0;
+  color:white;
   font-family: INKFERNO,sans-serif;
 }
 .home-title{
@@ -120,7 +119,7 @@ export default {
   bottom:3vh;
   right: 5vw;
   font-size: 3rem;
-  color: #106DB0;
+  color: white;
   font-family: INKFERNO,sans-serif;
 }
 
@@ -129,7 +128,7 @@ export default {
   left: 0;
   width:3vw;
   height: 100vh;
-  background: #106DB0;
+  background: white;
 }
 
 .socials{
@@ -141,8 +140,7 @@ export default {
   justify-content: space-around;
 }
 .insta, .twitter, .contact, .linkedin{
-  width:2rem;
-  height:2rem;
+  width:2vw;
 }
 @media screen and (max-width: 1024px) {
   .header-bar{
@@ -163,24 +161,24 @@ export default {
     top:75%;
     right: 11vw;
     width: 100%;
-    color:#106DB0;
+    color:white;
     text-align: center;
   }
   .logo{
   color: white;
-  font-size: 1.2rem;
+  font-size: 4vw;
   margin-left: 0;
   padding:0.5rem;
   font-weight: bold;
 }
   .available{
-    font-size: 1.2rem;
+    font-size: 4vw;
     margin:0;
     padding: 0.5rem;
     color: white;
   }
   .language{
-  font-size: 1.2rem;
+  font-size: 4vw;
   padding: 0.5rem;
   color: white;
 }

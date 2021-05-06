@@ -13,14 +13,14 @@
       <div class="contact-action">
           <div class="mail-box">
           <a class="links" href="mailto:someone@yoursite.com">
-              <img class="mail-box_logo" src="../assets/img/email-logo.png" alt="">
+              <img class="mail-box_logo" src="../assets/img/email-logoW.png" alt="">
           </a>
           <a class="links" href="mailto:someone@yoursite.com">hello@mikaelw.com</a>
           </div>
           <div class="socials-links">
-              <img class="contact-logo" src="../assets/img/instalogoB.png" alt="">
-              <img class="contact-logo" src="../assets/img/linkedin-logoB.png" alt="">
-              <img class="contact-logo" src="../assets/img/twitlogoB.png" alt="">
+              <img class="contact-logo" src="../assets/img/instalogo.png" alt="">
+              <img class="contact-logo" src="../assets/img/linkedin-logo.png" alt="">
+              <img class="contact-logo" src="../assets/img/twitlogo.png" alt="">
           </div>
       </div>
       <div class="copyright"> © MW 2021. tous droits réservés.</div>
@@ -39,6 +39,7 @@ export default {
     width: 100vw;
     height:100vh;
     position: relative;
+    background: #106DB0;
 }
 .contact-title{
   position: absolute;
@@ -48,17 +49,16 @@ export default {
   left: 0;
   width:4vw;
   height: 100vh;
-  background: #106DB0;
-  border-right: 3px solid whitesmoke;
-  border-left: 3px solid whitesmoke; 
+  background: white;
+  border-left: 3px solid #106db0;
   font-family: INKFERNO,sans-serif;
 }
 .contact-page_text{
     display: flex;
     transform: rotate(-90deg);
-    font-size: 4rem;
-    color: whitesmoke; 
-    margin-left: 1rem;
+    font-size: 3vw;
+    color: #106DB0; 
+    margin-left:0.5vw;
 }
 .meeting-purpose{
     display: flex;
@@ -71,11 +71,11 @@ export default {
     padding: 5vw;
     font-family: 'Podkova', serif;
     text-align: center;
-    color: #106DB0;
+    color: white;
 }
 p{
     padding: 1rem;
-    font-size: 2vw;;
+    font-size: 2.5vw;;
 }
 .contact-action{
     width: 96vw;
@@ -88,7 +88,7 @@ p{
 .links{
     font-family: 'Podkova', serif;
     font-size: 2.5rem;
-    color:#106DB0;
+    color:white;
     text-decoration: none;
     cursor: pointer;
 }
@@ -113,7 +113,7 @@ p{
     font-size: 1.2rem;
     transform: rotate(-90deg);
     font-family: INKFERNO,sans-serif;
-    color:#106DB0;
+    color:white;
 }
 @media screen and (max-width:1024px) {
     .contact-title{

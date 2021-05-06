@@ -14,11 +14,11 @@
       <div class="story-texte">
         <p class="story">Bonjour,</p>
         <p class="story">
-          Je suis Mikaël, développeur freelance basé en Normandie, près d'Evreux
+          Je suis Mikaël, développeur freelance basé en Normandie, près d'Evreux.
         </p>
         <p class="story">
           Passionné par le developpement web, je mets mon expertise et mes services
-          à votre dispotion pour vous accompagner dans vos projets. 
+          à votre disposition pour vous accompagner dans vos projets. 
           Présent depuis près de 10 ans dans l'univers digital à différents postes,
           J'ai décidé de me consacrer pleinement au developpement et à la programmation.
         </p>
@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #about-page {
   position: relative;
   display: flex;
@@ -53,15 +53,18 @@ export default {
   left: 0;
   width: 4vw;
   height: 100vh;
-  background: #106db0;
+  background: white;
 }
 .about-title_text {
   display: flex;
   transform: rotate(-90deg);
-  font-size: 4rem;
+  white-space: nowrap;
   font-family: INKFERNO, sans-serif;
-  color: whitesmoke;
-  margin-left: 1rem;
+  display: flex;
+  transform: rotate(-90deg);
+  font-size: 3vw;
+  color: #106db0;  
+  margin-left:0.5vw;
 }
 .about-page_story {
   display: flex;
@@ -69,6 +72,7 @@ export default {
   align-items: center;
   width: 50vw;
   height: 100vh;
+  background: #106db0;
 }
 
 .about-page_picture {
@@ -77,7 +81,7 @@ export default {
   align-items: center;
   width: 50vw;
   height: 100vh;
-  background: #106db0;
+  background: white;
 }
 .picture-part_image {
   width: 50%;
@@ -87,7 +91,7 @@ export default {
 }
 .story {
   font-family: "Podkova", serif;
-  color: #106db0;
+  color: white;
   font-size: 2vw;
   padding: 1rem 0;
 }
@@ -104,7 +108,6 @@ export default {
   .about-page_picture{
     width: 100vw;
     height: 47.5vh;
-    background: #106db0;
     align-content: center;
   }
   .picture-part_image{
@@ -112,6 +115,7 @@ export default {
   }
   #about-page{
     flex-direction: column;
+    height: auto;
   }
   .about-page_story{
     width: 100vw;

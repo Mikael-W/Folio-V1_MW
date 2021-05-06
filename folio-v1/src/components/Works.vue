@@ -7,10 +7,10 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Imagined and designed by myself, I thought this portfolio</p>
-            <p>into an original visit presenting my skills and services. The</p>
-            <p>whole thing is accompanied by animations to make the</p>
-            <p>visitors' journey even more pleasant and fluid.</p>
+            <p>Imagined and designed by myself, I thought this portfolio
+            into an original visit presenting my skills and services. The
+            whole thing is accompanied by animations to make the
+            visitors' journey even more pleasant and fluid.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -41,9 +41,9 @@
             />
           </div>
           <div class="project-presentation_description">
-            <p>Full social network project inspired by facebook</p>
-            <p>created from the database to the customer</p>
-            <p>front experience</p>
+            <p>Full social network project inspired by facebook
+            created from the database to the customer
+            front experience</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -71,12 +71,12 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Great collaboration with new futur skincare brand</p>
-            <p>
+            <p>Great collaboration with new futur skincare brand
+            
               <a href="www.laerte-skincare.ch">LAERTE</a> make marvellous
-              organic skincare products
-            </p>
-            <p>I worked on animations to give a smooth effect on it</p>
+              organic skincare products.
+            
+            I worked on animations to give a smooth effect on it</p>
             <p>
               website coming soon !
             </p>
@@ -106,9 +106,9 @@
             <img class="project-img" src="../assets/img/sopekocko.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>On the other side of the machine, creating and</p>
-            <p>securing a database and server for a comparative</p>
-            <p>hot sauce application</p>
+            <p>On the other side of the machine, creating and
+            securing a database and server for a comparative
+            hot sauce application</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/node.png" alt="" />
               <img
@@ -127,9 +127,9 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Development of the customer experience part</p>
-            <p>(front-end) of an e-commerce website with</p>
-            <p>connection to the api (backend) and unit testing</p>
+            <p>Development of the customer experience part
+            (front-end) of an e-commerce website with
+            connection to the api (backend) and unit testing</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -163,9 +163,9 @@
             />
           </div>
           <div class="project-presentation_description">
-            <p>Seo and accessibility optimisation of a website, keywords</p>
-            <p>research, improvement of loading speed. Compliance and</p>
-            <p>respect of wcag standards.</p>
+            <p>Seo and accessibility optimisation of a website, keywords
+            research, improvement of loading speed. Compliance and
+            respect of wcag standards.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -184,8 +184,8 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Integration of a mobile application for ordering meals</p>
-            <p>online with some call to action animations</p>
+            <p>Integration of a mobile application for ordering meals
+            online with some call to action animations</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -206,8 +206,8 @@
             <img class="project-img" src="../assets/img/reservia.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>Integration of an online booking site</p>
-            <p>for hotels and private renting rooms</p>
+            <p>Integration of an online booking site
+            for hotels and private renting rooms</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -254,10 +254,15 @@ export default {
   font-family: INKFERNO, sans-serif;
 }
 .works-page_text {
+  display: flex;
   transform: rotate(-90deg);
-  font-size: 4rem;
-  color: white;
-  margin-left: 1rem;
+  white-space: nowrap;
+  font-family: INKFERNO, sans-serif;
+  display: flex;
+  transform: rotate(-90deg);
+  font-size: 3vw;
+  color: white;  
+  margin-left:0.5vw;
 }
 .project-presentation-left,
 .project-presentation-right {
@@ -274,7 +279,7 @@ export default {
   background: #106db0;
 }
 .project-img {
-  width: 70%;
+  width: 80%;
   height: 75%;
   object-fit: fill;
 }
@@ -284,7 +289,6 @@ export default {
   align-items: center;
   flex-direction: column;
   font-family: "Podkova", serif;
-  font-size: 1.5rem;
   color: #106db0;
   width: 50%;
   height: 50vh;
@@ -302,6 +306,11 @@ export default {
 }
 a{
   text-decoration: none;
+}
+p{
+    font-size: 2vw;
+    padding: 0 1.5vw;
+    text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .works-page_title {

@@ -52,11 +52,15 @@ export default {
   font-family: INKFERNO,sans-serif;
 }
 .contact-page_text{
-    display: flex;
-    transform: rotate(-90deg);
-    font-size: 4rem;
-    color: whitesmoke; 
-    margin-left: 1rem;
+  display: flex;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  font-family: INKFERNO, sans-serif;
+  display: flex;
+  transform: rotate(-90deg);
+  font-size: 3vw;
+  color: white;  
+  margin-left:0.5vw;
 }
 .meeting-purpose{
     display: flex;
@@ -73,7 +77,7 @@ export default {
 }
 p{
     padding: 1rem;
-    font-size: 2vw;;
+    font-size: 2.5vw;;
 }
 .contact-action{
     width: 96vw;

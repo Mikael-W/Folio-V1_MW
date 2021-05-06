@@ -7,10 +7,10 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Imaginé et conçu entièrement par moi même, j'ai pensé mon portfolio</p>
-            <p>en une visite originale représentative de mes compétences.</p>
-            <p>l'ensemble accompagné d'animations rendant la visite plus</p>
-            <p>agréable et fluide pour l'utilisateur.</p>
+            <p>Imaginé et conçu entièrement par moi même, j'ai pensé mon portfolio
+            en une visite originale représentative de mes compétences.
+            l'ensemble accompagné d'animations rendant la visite plus
+            agréable et fluide pour l'utilisateur.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -41,9 +41,9 @@
             />
           </div>
           <div class="project-presentation_description">
-            <p>Projet complet présentant un réseau social d'entreprise inspiré</p>
-            <p>de facebook. Créer de la base de donnée jusqu'à l'interface utilisateur</p>
-            <p>par mes soins</p>
+            <p>Projet complet présentant un réseau social d'entreprise inspiré
+            de facebook. Créer de la base de donnée jusqu'à l'interface utilisateur
+            par mes soins</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -71,14 +71,9 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Superbe collaboration avec une jeune marque de produit de beauté suisse</p>
-            <p>
+            <p>Superbe collaboration avec une jeune marque de produit de beauté suisse
               <a href="www.laerte-skincare.ch">LAERTE</a> créee des produits de beauté bio
-              d'exceptions
-            </p>
-            <p>j'ai crée cette teasing page et élaborer les animations dans un esprit fluide et discret
-            </p>
-            <p>
+              d'exceptions. J'ai crée cette teasing page et élaborer les animations dans un esprit fluide et discret
              Site définitif à venir !
             </p>
             <div class="icons-tools_box">
@@ -107,9 +102,9 @@
             <img class="project-img" src="../assets/img/sopekocko.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>De l'autre côté de l'écran, creation d'une API.</p>
-            <p>De la base donnée au serveur en passant par sa sécurisation.</p>
-            <p>Excellent projet pour un site de comparaison de sauces piquantes.</p>
+            <p>De l'autre côté de l'écran, creation d'une API.
+                De la base donnée au serveur en passant par sa sécurisation.
+                Excellent projet pour un site de comparaison de sauces piquantes.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/node.png" alt="" />
               <img
@@ -128,9 +123,9 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Developpement de l'interface utilisateur</p>
-            <p>(front-end) d'un site e-commerce avec</p>
-            <p>connection à l'API (backend) et tests unitaires</p>
+            <p>Developpement de l'interface utilisateur
+            (front-end) d'un site e-commerce avec
+            connection à l'API (backend) et tests unitaires</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -164,9 +159,9 @@
             />
           </div>
           <div class="project-presentation_description">
-            <p>Optimisation SEO et d'accessibilité d'un projet, recherche et étude</p>
-            <p>des mots clés, amélioration de la vitesse de chargement. Mise en conformité</p>
-            <p>de l'accessibilitée selon les normes wcag.</p>
+            <p>Optimisation SEO et d'accessibilité d'un projet, recherche et étude
+            des mots clés, amélioration de la vitesse de chargement. Mise en conformité
+            de l'accessibilitée selon les normes wcag.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -185,8 +180,8 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>intégration d'une maquette d'application mobile  </p>
-            <p>proposant un service de commande en ligne de plats avec quelques animations</p>
+            <p>intégration d'une maquette d'application mobile 
+            proposant un service de commande en ligne de plats avec quelques animations</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -207,8 +202,8 @@
             <img class="project-img" src="../assets/img/reservia.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>Intégration d'une maquette d'un site de réservation de chambres</p>
-            <p>d'hotels et particulières en ligne</p>
+            <p>Intégration d'une maquettes d'un site de réservation de chambres
+            d'hotels et particulières en ligne</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -249,16 +244,16 @@ export default {
   left: 0;
   width: 4vw;
   height: 100vh;
-  background: #106db0;
-  border-right: 3px solid white;
-  border-left: 3px solid white;
+  background: white;
+  border-right: 3px solid #106db0;
   font-family: INKFERNO, sans-serif;
 }
 .works-page_text {
-  transform: rotate(-90deg);
-  font-size: 4rem;
-  color: white;
-  margin-left: 1rem;
+  display: flex;
+    transform: rotate(-90deg);
+    font-size: 3vw;
+    color:#106db0; 
+    margin-left:0.5vw;
 }
 .project-presentation-left,
 .project-presentation-right {
@@ -272,10 +267,10 @@ export default {
   align-items: center;
   width: 50%;
   height: 50vh;
-  background: #106db0;
+  background: white;
 }
 .project-img {
-  width: 70%;
+  width: 80%;
   height: 75%;
   object-fit: fill;
 }
@@ -285,11 +280,10 @@ export default {
   align-items: center;
   flex-direction: column;
   font-family: "Podkova", serif;
-  font-size: 1.5rem;
-  color: #106db0;
+  color: white;
   width: 50%;
   height: 50vh;
-  background: white;
+  background: #106db0;
 }
 .icons-tools_box {
   display: flex;
@@ -303,6 +297,11 @@ export default {
 }
 a{
   text-decoration: none;
+}
+p{
+    font-size: 2vw;
+    padding: 0 1.5vw;
+    text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .works-page_title {
@@ -319,13 +318,13 @@ a{
   .project-presentation-left{
       flex-direction: column;
       width: 90vw;
-      height: 95vh;
+      height: 100vh;
       margin:0
   } 
   .project-presentation-right{
       flex-direction: column-reverse;
       width: 90vw;
-      height: 95vh;
+      height: 100vh;
       margin:0
   }
   .project-presentation_picture{
@@ -334,7 +333,7 @@ a{
   }
   .project-presentation_description {
       position: relative;
-      width: 89vw;
+      width: 90vw;
       height: 50vh;
   }
   #project-presentation{
