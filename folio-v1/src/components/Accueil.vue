@@ -1,7 +1,7 @@
 <template>
   <div class="folio-home">
     <div class="header-bar">
-      <img class="logo" src="../assets/img/mw_logoW.png"/>
+       <div class="logo">MW</div>
       <div class="available">DISPONIBLE</div>
       <a class="language" href="/">EN</a>
       </div>
@@ -68,9 +68,12 @@ export default {
   align-items: center;
 }
 .logo{
-  width: 2vw;
+  color:white;
+  font-size: 1.5vw;
   margin-left: 4.5rem;
   padding:0.5rem;
+  font-weight: bold;
+  font-family: INKFERNO,sans-serif;
 }
 .available{
   color: white;
@@ -190,8 +193,7 @@ export default {
     flex-direction: row;
   }
   .insta, .twitter, .contact, .linkedin{
-  width:1.5rem;
-  height:1.5rem;
+  width:2vw;
 }
 @media screen and (max-width: 425px){
   #firstname{

@@ -1,7 +1,7 @@
 <template>
   <div class="folio-home">
     <div class="header-bar">
-      <img class="logo" src="../assets/img/mw_logo.png"/>
+      <div class="logo">MW</div>
       <div class="available">AVAILABLE</div>
       <a class="language" href="/fr">FR</a>
       </div>
@@ -14,7 +14,7 @@
     <a href="https://www.instagram.com/mikaelw_dev/"><img src="../assets/img/instalogo.png" class="insta"></a>
     <a href="https://twitter.com/w3_mika"><img src="../assets/img/twitlogo.png" class="twitter"></a>
     <a href="https://www.linkedin.com/in/mikael-w/?locale=en_US"><img src="../assets/img/linkedin-logo.png" class="linkedin"></a> 
-    <a href="mailto:hello@mikaelw.com"><img src="../assets/img/email.png" class="contact"></a> 
+    <a href="mailto:someone@yoursite.com"><img src="../assets/img/email.png" class="contact"></a> 
    </div>
   </div>
 </template>
@@ -71,9 +71,11 @@ export default {
 }
 .logo{
   color: #106DB0;
-  width:2vw;
+  font-size: 1.5vw;
   margin-left: 4.5rem;
   padding:0.5rem;
+  font-weight: bold;
+  font-family: INKFERNO,sans-serif;
 }
 .available{
   color: #106DB0;
