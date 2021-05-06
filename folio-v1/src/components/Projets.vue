@@ -7,7 +7,7 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Imaginé et conçu entièrement par moi même, j'ai pensé mon portfolio
+            <p>Imaginé et conçu entièrement par moi-même, j'ai pensé mon portfolio
             en une visite originale représentative de mes compétences.
             l'ensemble accompagné d'animations rendant la visite plus
             agréable et fluide pour l'utilisateur.</p>
@@ -42,7 +42,7 @@
           </div>
           <div class="project-presentation_description">
             <p>Projet complet présentant un réseau social d'entreprise inspiré
-            de facebook. Créer de la base de donnée jusqu'à l'interface utilisateur
+            de Facebook. Créer de la base de données jusqu'à l'interface utilisateur
             par mes soins</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
@@ -71,9 +71,9 @@
       <div id="project-presentation">
         <div class="project-presentation-right">
           <div class="project-presentation_description">
-            <p>Superbe collaboration avec une jeune marque de produit de beauté suisse
+            <p>Superbe collaboration avec une jeune marque de produits de beauté suisse
               <a href="www.laerte-skincare.ch">LAERTE</a> créee des produits de beauté bio
-              d'exceptions. J'ai crée cette teasing page et élaborer les animations dans un esprit fluide et discret
+              d'exception. J'ai crée cette 'teasing page' et élaborer les animations dans un esprit fluide et discret
              Site définitif à venir !
             </p>
             <div class="icons-tools_box">
@@ -103,7 +103,7 @@
           </div>
           <div class="project-presentation_description">
             <p>De l'autre côté de l'écran, creation d'une API.
-                De la base donnée au serveur en passant par sa sécurisation.
+                De la base données au serveur en passant par sa sécurisation.
                 Excellent projet pour un site de comparaison de sauces piquantes.</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/node.png" alt="" />
@@ -125,7 +125,7 @@
           <div class="project-presentation_description">
             <p>Developpement de l'interface utilisateur
             (front-end) d'un site e-commerce avec
-            connection à l'API (backend) et tests unitaires</p>
+            connexion à l'API (backend) et tests unitaires</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
@@ -159,7 +159,7 @@
             />
           </div>
           <div class="project-presentation_description">
-            <p>Optimisation SEO et d'accessibilité d'un projet, recherche et étude
+            <p>Optimisation SEO et de l'accessibilité d'un projet, recherche et étude
             des mots clés, amélioration de la vitesse de chargement. Mise en conformité
             de l'accessibilitée selon les normes wcag.</p>
             <div class="icons-tools_box">
@@ -202,8 +202,8 @@
             <img class="project-img" src="../assets/img/reservia.png" alt="" />
           </div>
           <div class="project-presentation_description">
-            <p>Intégration d'une maquettes d'un site de réservation de chambres
-            d'hotels et particulières en ligne</p>
+            <p>Intégration d'une maquette d'un site de réservation de chambres
+            d'hôtels et particulières en ligne</p>
             <div class="icons-tools_box">
               <img class="icons-tools" src="../assets/img/html-5.png" alt="" />
               <img class="icons-tools" src="../assets/img/css-3.png" alt="" />
