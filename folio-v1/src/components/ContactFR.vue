@@ -134,7 +134,7 @@ p{
         padding: 0;
     }
     p{
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .contact-action{
         width: 100vw;

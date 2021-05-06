@@ -303,7 +303,7 @@ p{
     padding: 0 1.5vw;
     text-align: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
   .works-page_title {
     top: 0;
     bottom: 95vh;
@@ -317,13 +317,13 @@ p{
   }
   .project-presentation-left{
       flex-direction: column;
-      width: 90vw;
+      width: 91vw;
       height: 100vh;
       margin:0
   } 
   .project-presentation-right{
       flex-direction: column-reverse;
-      width: 90vw;
+      width: 91vw;
       height: 100vh;
       margin:0
   }
@@ -333,7 +333,7 @@ p{
   }
   .project-presentation_description {
       position: relative;
-      width: 90vw;
+      width: 92vw;
       height: 50vh;
   }
   #project-presentation{
@@ -361,7 +361,7 @@ p{
     height:25vh;
   }
   .project-presentation_picture{
-      height: 45vh;
+      height: 50vh;
   }
   p{
     font-size: 1rem;

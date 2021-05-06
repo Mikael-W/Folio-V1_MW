@@ -95,7 +95,7 @@ export default {
   font-size: 2vw;
   padding: 1rem 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .about-title{
     top:0;
     width: 100%;

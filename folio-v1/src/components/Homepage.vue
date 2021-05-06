@@ -3,7 +3,7 @@
     <div class="header-bar">
       <div class="logo">MW</div>
       <div class="available">AVAILABLE</div>
-      <router-link class="language" to="/fr">FR</router-link>
+      <a class="language" href="/fr">FR</a>
       </div>
     <div id="firstname">MIKAEL</div>
     <div id="lastname">WAWRZICZNY</div>
@@ -144,7 +144,7 @@ export default {
 .insta, .twitter, .contact, .linkedin{
   width:2vw;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) and (max-height: 1024px){
   .header-bar{
   display: flex;
   justify-content: space-between;
@@ -153,10 +153,10 @@ export default {
 }
   #firstname{
     height:0;
-    margin: 35vh 0 0 5vw;
+    margin: 20vh 0 0 5vw;
   }
   #lastname{
-    margin: 15vh 0 0 5vw;
+    margin: 25vh 0 0 5vw;
   }
   .home-title{
     position: absolute;
@@ -194,9 +194,9 @@ export default {
   .socials{
     flex-direction: row;
   }
-  .insta, .twitter, .contact, .linkedin{
-    width:5vw;
-}
+@media screen and (max-width: 1024px) and (max-height: px){
+
+  }
 @media screen and (max-width: 425px){
   #firstname{
     margin: 25vh 0 0 5vw;
@@ -215,15 +215,6 @@ export default {
   @media screen and (max-width: 280px){
     .home-title{
     right:0;
-  }
-  }
-  @media screen and (max-height: 500px){
-    #firstname{
-    height:0;
-    margin: 10vh 0 0 5vw;
-  }
-  #lastname{
-    margin: 25vh 0 0 5vw;
   }
   }
 }

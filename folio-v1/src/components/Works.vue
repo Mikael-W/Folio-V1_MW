@@ -312,7 +312,7 @@ p{
     padding: 0 1.5vw;
     text-align: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) and (orientation: portrait){
   .works-page_title {
     top: 0;
     bottom: 95vh;

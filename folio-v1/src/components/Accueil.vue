@@ -3,7 +3,7 @@
     <div class="header-bar">
       <div class="logo">MW</div>
       <div class="available">DISPONIBLE</div>
-      <router-link class="language" to="/">EN</router-link>
+      <a class="language" href="/">EN</a>
       </div>
     <div id="firstname">MIKAEL</div>
     <div id="lastname">WAWRZICZNY</div>
@@ -142,7 +142,7 @@ export default {
 .insta, .twitter, .contact, .linkedin{
   width:2vw;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .header-bar{
   display: flex;
   justify-content: space-between;

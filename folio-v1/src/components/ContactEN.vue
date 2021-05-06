@@ -117,7 +117,7 @@ p{
     font-family: INKFERNO,sans-serif;
     color:#106DB0;
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:768px) {
     .contact-title{
         top:0;
         bottom: 95vh;
